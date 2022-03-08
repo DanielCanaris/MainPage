@@ -11,16 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "express-session": "^1.17.2",
     "hjs": "^0.0.6",
-    "mongoose": "^6.2.2",
-    "nodemon": "^2.0.15",
-    "passport": "^0.5.2",
-    "passport-local": "^1.0.0",
     "path": "^0.12.7"
   }
 }
