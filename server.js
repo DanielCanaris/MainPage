@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 dotenv.config();
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 80;
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hjs');
