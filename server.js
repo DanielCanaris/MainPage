@@ -18,7 +18,7 @@ app.use((err, req, res, next) => {
 	return res.send(`Error: ${err}`);
 });
 
-app.listen(port, (err) => {
+app.listen(port, "0.0.0.0", (err) => {
 	if (err) return console.log(`Error hosting on port ${port}.  Error: ${err}`);
 	return console.log(`Now hosting on http://localhost:${port}.`);
 });
