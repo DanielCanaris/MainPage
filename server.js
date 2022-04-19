@@ -15,7 +15,7 @@ app.get('/', (req, res, next) => {
 app.use((err, req, res, next) => {
 	return res.send(`Error: ${err}`);
 });
-//git 
+
 app.listen(port, (err) => {
 	if (err) return console.log(`Error hosting on port ${port}.  Error: ${err}`);
 	return console.log(`Now hosting on port ${port}.`);
